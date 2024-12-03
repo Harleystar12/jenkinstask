@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build Image') {
             steps {
-                    sh 'docker build -t Task1:latest .'
+                    sh 'docker build -t task1:latest .'
             }
         }
         stage('Run Container') {

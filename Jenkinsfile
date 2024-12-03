@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Run Container') {
             steps {
-                sh 'docker run -d -p 80:5500 --name harleyCont Task1:latest'
+                sh 'docker run -d -p 80:5500 --name harleyCont task1:latest'
             }
         }
     }
